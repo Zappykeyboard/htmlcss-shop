@@ -9,7 +9,6 @@
     color: black;
 }
 
-
 .bad{
     background-color: red;
 }
@@ -27,11 +26,25 @@
     background: url(img/pd3.jpg) no-repeat
 }
 
+/* posiziono gli item */
 .item{
     position:relative;
     width: 300px;
     height: 372px;
-    margin: 10px 2px 10px 2px;
+    margin: 5px 2px 20px 2px;
     display: inline-block;
 }
 
+.item-top{
+    position: absolute;
+    right: 0;
+}
+
+.item-heart{
+    position: absolute;
+    color: red;
+    font-size: 2em;
+    bottom: 10px;
+    left: 50%;
+    display: none;
+}
