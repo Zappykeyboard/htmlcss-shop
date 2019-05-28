@@ -1,16 +1,13 @@
-.item-top, .item-heart{
+.item-top{
+    background-color: green;
+    color: black;
     height: 20px;
     width: 35px;
 }
 
-
-.item-top{
-    background-color: green;
-    color: black;
-}
-
 .bad{
     background-color: red;
+    width: 30px;
 }
 
 /*aggiungo le immagini come sfondo degli item*/
@@ -31,7 +28,7 @@
     position:relative;
     width: 300px;
     height: 372px;
-    margin: 5px 2px 20px 2px;
+    margin: 5px 2px 10px 2px;
     display: inline-block;
 }
 
@@ -43,8 +40,15 @@
 .item-heart{
     position: absolute;
     color: red;
+    height: 20px;
+    width: 35px;
     font-size: 2em;
     bottom: 10px;
     left: 50%;
     display: none;
+}
+
+/* mostra il cuoricino quando il mouse passa sopra l'item */
+.item:hover .item-heart{
+    display: block;
 }
