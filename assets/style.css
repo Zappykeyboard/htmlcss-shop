@@ -1,0 +1,35 @@
+.item-top, .item-heart{
+    height: 30px;
+    width: 35px;
+}
+
+
+.item-top{
+    background-color: green;
+    color: black;
+}
+
+
+.bad{
+    background-color: red;
+}
+
+/*aggiungo le immagini come sfondo degli item*/
+.item:nth-child(1){
+    background: url(img/pd1.jpg) no-repeat
+}
+
+.item:nth-child(2){
+    background: url(img/pd2.jpg) no-repeat
+}
+
+.item:nth-child(3){
+    background: url(img/pd3.jpg) no-repeat
+}
+
+.item{
+    position:relative;
+    width: 400px;
+    height: 372px;
+}
+
